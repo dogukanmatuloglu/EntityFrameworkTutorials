@@ -17,6 +17,6 @@ namespace EF_CODEFİRS_MOVİES
             public virtual DbSet<Film> Films { get; set; }
 
 
-
+        
     }
 }

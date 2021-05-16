@@ -17,7 +17,7 @@ namespace EF_CODEFİRS_MOVİES
         public Nullable<int> DirectorLanguageID { get; set; }
        
         
-      
+      public virtual Film Film { get; set; }
         public virtual Language Language { get; set; }
 
         

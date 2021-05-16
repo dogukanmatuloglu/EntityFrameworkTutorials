@@ -9,6 +9,7 @@ namespace EF_CODEFİRS_MOVİES
 {
     public class Film
     {
+        [ForeignKey("Director")]
         public int FilmID { get; set; }
         
         public string Title { get; set; }
